@@ -1,0 +1,5 @@
+apis/__pycache__/
+helpers/__pycache__/
+autoAcceptInvite
+*.json
+*.csv
