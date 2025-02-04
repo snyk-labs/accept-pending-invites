@@ -145,6 +145,8 @@ def add_member_to_snyk_organization(group_id, org_id, user_id, role):
     try:
         add_member_response = requests.post(url, headers=v1Headers, data=json.dumps(body))
         if add_member_response.status_code == 200:
-            print("User added successfully.")    
+            print("User added successfully.")
+            return True
     except:
         print(f"Add user endpoint failed with the following error code: {add_member_response.status_code}.  Here is the error: {add_member_response} ") 
+        return False, add_member_response
