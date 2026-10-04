@@ -13,7 +13,7 @@ decorator==5.1.1
 Deprecated==1.2.14
 deprecation==2.1.0
 distlib==0.3.8
-dulwich==0.21.7
+dulwich==1.2.9
 exceptiongroup==1.1.2
 fastjsonschema==2.20.0
 filelock==3.16.0
