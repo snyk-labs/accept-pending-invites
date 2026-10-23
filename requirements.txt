@@ -44,7 +44,7 @@ py==1.11.0
 pycparser==2.22
 PyGithub==1.47
 Pygments==2.18.0
-PyJWT==2.8.0
+PyJWT==2.14.0
 pylint==2.4.4
 pyproject_hooks==1.1.0
 pysnyk==0.9.8
